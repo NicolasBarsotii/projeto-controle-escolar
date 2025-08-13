@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>notas</title>
+    <!--LINK CSS-->
+    <link rel="stylesheet" href="/css/notas.css">
+    <!--LINK CSS RESPONSIVO-->
+    <link rel="stylesheet" href="/css/responsivo-notas.css">
+    <!--LINK JavaScript-->
+    <script src="/JavaScript/notas.js" defer></script>
+</head>
+<body>
+    <a id="voltar" href="/index.html"><button>Voltar</button></a>
+<header> 
+    <h1>CRONTROLE ESCOLAR</h1> <br> <br>
+    <h1 id="proz">Proz Educaçao</h1> <br> <br>
+</header>
+
+<main>
+<div id="div-nome-cpf">
+    <h1 class="nome-cpf">Fulano de tau</h1>
+    <h1 class="nome-cpf">000.000.000-00</h1>
+</div>
+
+<div id="div-form">
+    <form id="form-notas">
+        <table>
+            <tr>
+                <td>
+                    <select name="materias">
+                        <option>Front-end</option>
+                        <option>Back-end</option>
+                        <option>Banco de Dados</option>
+                        <option>Fundamentos de Programação</option>
+                    </select>
+                </td>
+                <th>Avaliação</th>
+                <th>Participação</th>
+                <th>EAD</th>
+            </tr>
+            <tr>
+                <th>Notas</th>
+                <td><input id="nota-avaliaçao" type="number" min="0" max="4"></td>
+                <td><input id="nota-participaçao" type="number" min="0" max="4"></td>
+                <td><input id="nota-ead" type="number" min="0" max="2"></td>
+            </tr>
+        </table>
+        <button id="botao-calcular" type="button">Calcular</button>
+        <div id="container-resultado"></div>
+    </form>
+</div>
+</main>
+</body>
+</html>

@@ -1,0 +1,24 @@
+/* Media Query para Mobile (max-width: 440px) */
+@media (max-width: 440px) {
+    body {
+        align-items: center;
+    }
+    header {
+        padding-top: 20px;
+        font-size: 1.2rem;
+    }
+    main {
+        padding-top: 20px;
+    }
+    h1 {
+        font-size: 1.2rem;
+    }
+    form {
+        padding-top: 30px;
+        max-width: 300px;
+    }
+    #button {
+        font-size: 1.2rem;
+        padding: 10px 20px;
+    }
+}
